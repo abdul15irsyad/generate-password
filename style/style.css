@@ -1,0 +1,19 @@
+.btn-copy.input-group-text{
+    background-color: var(--bs-white);
+    border-left: none;
+    cursor: pointer;
+}
+.btn-copy.input-group-text:hover{
+    color: var(--bs-success);
+    background-color: #f5f5f5;
+}
+.input-group input{
+    border-right: none;
+}
+input[type="checkbox"],input[type="checkbox"] + label{
+    user-select: none;
+    cursor: pointer;
+}
+.alert-message{
+    display: none;
+}
