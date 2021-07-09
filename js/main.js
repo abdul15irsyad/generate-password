@@ -8,6 +8,9 @@ let btnGenerate = document.querySelector('.btn-generate')
 let inputGeneratedPassword = document.querySelector('.generated-password')
 let btnCopy = document.querySelector('.btn-copy')
 let alertMessage = document.querySelector('.alert-message')
+formOptions.addEventListener('submit', (e) => {
+    e.preventDefault()
+})
 let checkCheckbox = () => {
     if (formOptions.length.value == '' || (formOptions.uppercase.checked == false && formOptions.lowercase.checked == false && formOptions.numbers.checked == false && formOptions.symbols.checked == false)) {
         btnGenerate.disabled = true
